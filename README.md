@@ -1,6 +1,8 @@
 C# Microsoft Access Database Connection Class | C# Microsoft Access Veritabanı Bağlantısı Sınıfı
 
 Usage: You must insert the database file into the Debug folder.
+Then add dbConnectionClass.cs to project file.
+Open your dbConnectionClass.cs file and edit it according to your own project name.
 
 DataSet virtualx;
 
@@ -19,7 +21,11 @@ DBConnect.RunCommand(komut);
 
 
 Kullanım: Projenizin içinde bulunan Debug klasörünün içine .accdb (veritabanı) dosyanızı atın.
+Daha sonra projenize .cs uzantılı veritabanı işlemlerimizi yapacak olan dosyamızı ekleyin.
+.cs uzantılı dosyamızı açın ve kendi proje adınıza göre düzenleyin.
 
 string komut = "insert into tabloAdi(kolon1,kolon2,kolon3,kolon4) values('" + txt1.Text + "','" + txt2.Text + "','" + txt3.Text + "','" + txt4.Text + "') "; VTBaglan.komutisle(komut);
+
+
 
 ![alt text](https://user-images.githubusercontent.com/39583220/41034606-c6f45180-6992-11e8-8731-82efa900c309.png)
